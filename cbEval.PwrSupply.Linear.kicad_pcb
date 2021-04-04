@@ -4041,7 +4041,7 @@
     (property "Usage" "GND")
     (path "/fae6516a-9429-461a-8ec1-3b1a99f8be92")
     (attr through_hole)
-    (fp_text reference "JP3" (at 0 -2.33) (layer "F.SilkS")
+    (fp_text reference "J11" (at 0 -2.33) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e0eb9dfe-d5d2-4f6e-b202-6fd5ac9f17e6)
     )
