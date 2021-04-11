@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\BodeRu\WorkspaceKiCAD\cbEval.PwrSupply.Linear\cbEval.PwrSupply.Linear.kicad_sch</source>
-    <date>08.04.2021 10:19:35</date>
+    <date>11.04.2021 12:10:49</date>
     <tool>Eeschema (5.99.0-10141-g7d9ee76f64)</tool>
     <textvar name="TITLE">cbEval PSupply 5P/3P3</textvar>
     <textvar name="VERSION">V1.0.0</textvar>
@@ -32,7 +32,7 @@
       <datasheet>https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</datasheet>
       <fields>
         <field name="Dielectric">AlElec</field>
-        <field name="ID">UWT1V101MCL1GB</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
         <field name="Package">6.3x7.7</field>
         <field name="Tolerance">20%</field>
         <field name="Voltage">35V</field>
@@ -42,7 +42,7 @@
       <property name="Voltage" value="35V"/>
       <property name="Tolerance" value="20%"/>
       <property name="Dielectric" value="AlElec"/>
-      <property name="ID" value="UWT1V101MCL1GB"/>
+      <property name="ID" value="UWT1V101MCL1G5S"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -98,7 +98,7 @@
       <datasheet>https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</datasheet>
       <fields>
         <field name="Dielectric">AlElec</field>
-        <field name="ID">UWT1V101MCL1GB</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
         <field name="Package">6.3x7.7</field>
         <field name="Tolerance">20%</field>
         <field name="Voltage">35V</field>
@@ -108,7 +108,7 @@
       <property name="Voltage" value="35V"/>
       <property name="Tolerance" value="20%"/>
       <property name="Dielectric" value="AlElec"/>
-      <property name="ID" value="UWT1V101MCL1GB"/>
+      <property name="ID" value="UWT1V101MCL1G5S"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -143,12 +143,12 @@
       <fields>
         <field name="ID">LTST-E682KRKGWT</field>
         <field name="Package">PLCC4</field>
-        <field name="Usage">5P</field>
+        <field name="Usage">Usage</field>
       </fields>
       <libsource lib="D.LED" part="E682KRKGWT" description="LED GREEN/RED DIFFUSED"/>
       <property name="Package" value="PLCC4"/>
       <property name="ID" value="LTST-E682KRKGWT"/>
-      <property name="Usage" value="VCC is 5P"/>
+      <property name="Usage" value="Usage"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -161,12 +161,12 @@
       <fields>
         <field name="ID">LTST-E682KRKGWT</field>
         <field name="Package">PLCC4</field>
-        <field name="Usage">VCC is 3P3</field>
+        <field name="Usage">Usage</field>
       </fields>
       <libsource lib="D.LED" part="E682KRKGWT" description="LED GREEN/RED DIFFUSED"/>
       <property name="Package" value="PLCC4"/>
       <property name="ID" value="LTST-E682KRKGWT"/>
-      <property name="Usage" value="3P3"/>
+      <property name="Usage" value="Usage"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -223,132 +223,36 @@
       <tstamps>46bc3a26-4db8-40e9-b9f8-f6397cd4bb44</tstamps>
     </comp>
     <comp ref="J3">
-      <value>Keystone.4918</value>
-      <footprint>BTech.Connector.QuickConnect:Keystone.4918</footprint>
-      <datasheet>https://www.keyelco.com/userAssets/file/M65p58.pdf</datasheet>
+      <value>Socket.Hor.2x8.1-5535512-8</value>
+      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
       <fields>
-        <field name="ID">4918</field>
-        <field name="Usage">GND Extension</field>
+        <field name="ID">1-5535512-8</field>
+        <field name="Usage">Pwr Bus</field>
       </fields>
-      <libsource lib="J.QuickConnect" part="Keystone.4918" description="CONN QC TAB 0.187 SOLDER "/>
-      <property name="ID" value="4918"/>
-      <property name="Usage" value="GND Extension"/>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
+      <property name="Usage" value="Pwr Bus"/>
+      <property name="ID" value="1-5535512-8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>5b7df751-3641-4ed3-b0f0-faeaa03ff112</tstamps>
+      <tstamps>5a5dce13-621d-4569-a066-0f61f2638c63</tstamps>
     </comp>
     <comp ref="J4">
-      <value>Keystone.4918</value>
-      <footprint>BTech.Connector.QuickConnect:Keystone.4918</footprint>
-      <datasheet>https://www.keyelco.com/userAssets/file/M65p58.pdf</datasheet>
-      <fields>
-        <field name="ID">4918</field>
-        <field name="Usage">GND Extension</field>
-      </fields>
-      <libsource lib="J.QuickConnect" part="Keystone.4918" description="CONN QC TAB 0.187 SOLDER "/>
-      <property name="ID" value="4918"/>
-      <property name="Usage" value="GND Extension"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>61b83124-d0e2-4bf5-a881-e759dca1dfc6</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>Keystone.3571</value>
-      <footprint>BTech.Connector.QuickConnect:Keystone.3571</footprint>
-      <datasheet>https://www.keyelco.com/userAssets/file/M65p61.pdf</datasheet>
-      <fields>
-        <field name="ID">3571</field>
-        <field name="Usage">GND Extension</field>
-      </fields>
-      <libsource lib="J.QuickConnect" part="Keystone.3571" description="CONN QC RCPT 0.187 SOLDER"/>
-      <property name="ID" value="3571"/>
-      <property name="Usage" value="GND Extension"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>dea9126f-0815-43a3-8dd4-a9b4ca3c4e44</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>Keystone.3571</value>
-      <footprint>BTech.Connector.QuickConnect:Keystone.3571</footprint>
-      <datasheet>https://www.keyelco.com/userAssets/file/M65p61.pdf</datasheet>
-      <fields>
-        <field name="ID">3571</field>
-        <field name="Usage">GND Extension</field>
-      </fields>
-      <libsource lib="J.QuickConnect" part="Keystone.3571" description="CONN QC RCPT 0.187 SOLDER"/>
-      <property name="ID" value="3571"/>
-      <property name="Usage" value="GND Extension"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e93f81b1-ad93-481f-9cd7-75ae6d66c6ec</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>Socket.Hor.2x5.6-5535512-4</value>
+      <value>Socket.Hor.2x8.1-5535512-8</value>
       <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
       <fields>
-        <field name="ID">6-5535512-4</field>
-        <field name="Usage">Pwr Bus</field>
-      </fields>
-      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x5.6-5535512-4" description="CONN RCPT 10POS 0.1 GOLD PCB R/A"/>
-      <property name="Usage" value="Pwr Bus"/>
-      <property name="ID" value="6-5535512-4"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fabc1d19-235a-48af-ba1f-027b6302ed67</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>Header.Hor.2x5.9-103326-0-05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
-      <fields>
-        <field name="ID">9-103326-0-05</field>
-        <field name="Usage">Pwr Bus</field>
-      </fields>
-      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x5.9-103326-0-05" description="CONN HEADER R/A 10POS 2.54MM "/>
-      <property name="Usage" value="Pwr Bus"/>
-      <property name="ID" value="9-103326-0-05"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5350685-5332-457d-b000-2fb1738f37a1</tstamps>
-    </comp>
-    <comp ref="J9">
-      <value>Header.Hor.2x5.9-103326-0-05</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
-      <fields>
-        <field name="ID">9-103326-0-05</field>
+        <field name="ID">1-5535512-8</field>
         <field name="Usage">Data Bus</field>
       </fields>
-      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x5.9-103326-0-05" description="CONN HEADER R/A 10POS 2.54MM "/>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
       <property name="Usage" value="Data Bus"/>
-      <property name="ID" value="9-103326-0-05"/>
+      <property name="ID" value="1-5535512-8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ef9d6d65-ff25-4889-9d15-9b8e0ed62b7e</tstamps>
-    </comp>
-    <comp ref="J10">
-      <value>Socket.Hor.2x5.6-5535512-4</value>
-      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
-      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
-      <fields>
-        <field name="ID">6-5535512-4</field>
-        <field name="Usage">Data Bus</field>
-      </fields>
-      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x5.6-5535512-4" description="CONN RCPT 10POS 0.1 GOLD PCB R/A"/>
-      <property name="Usage" value="Data Bus"/>
-      <property name="ID" value="6-5535512-4"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a8e206b2-515b-43db-af27-7368219ba295</tstamps>
+      <tstamps>024d2d9f-df27-4a33-84ff-de69d08a8e9b</tstamps>
     </comp>
     <comp ref="J11">
       <value>Bergstik-II_6</value>
@@ -368,14 +272,46 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fae6516a-9429-461a-8ec1-3b1a99f8be92</tstamps>
     </comp>
-    <comp ref="MP1">
-      <value>KiCAD-Logo2.5mm.SilkScreen</value>
-      <footprint>Symbol:KiCad-Logo2_5mm_SilkScreen</footprint>
-      <libsource lib="Symbol" part="KiCAD-Logo2.5mm.SilkScreen" description=""/>
+    <comp ref="J12">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Pwr Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Pwr Bus"/>
+      <property name="ID" value="9-103326-0-08"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>aa3513d0-0eee-457c-a792-7c9954431f2c</tstamps>
+      <tstamps>ebe28bb3-2b63-4632-ae77-dbef4484ce9f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Data Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Data Bus"/>
+      <property name="ID" value="9-103326-0-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27fe4606-788d-4210-80a8-db57dc59cf98</tstamps>
+    </comp>
+    <comp ref="MP1">
+      <value>KiCAD-DesignedWith-Logo2.5mm.SilkScreen</value>
+      <footprint>Symbol:KiCad-Logo2_5mm_SilkScreen</footprint>
+      <libsource lib="Symbol" part="KiCAD-DesignedWith-Logo2.5mm.SilkScreen" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9e57e62-be33-4183-8d54-8f35a9c1b2d9</tstamps>
     </comp>
     <comp ref="R1">
       <value>649R</value>
@@ -782,7 +718,7 @@
         <field name="Voltage">35V</field>
         <field name="Tolerance">20%</field>
         <field name="Dielectric">AlElec</field>
-        <field name="ID">UWT1V101MCL1GB</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -854,16 +790,16 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="J.AMPMODU-ModII" part="Header.Hor.2x5.9-103326-0-05">
-      <description>CONN HEADER R/A 10POS 2.54MM </description>
+    <libpart lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08">
+      <description>CONN HEADER R/A 16POS 2.54MM </description>
       <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Header.Hor.2x5.9-103326-0-05</field>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</field>
+        <field name="Value">Header.Hor.2x8.9-103326-0-08</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
         <field name="Usage">Usage</field>
-        <field name="ID">9-103326-0-05</field>
+        <field name="ID">9-103326-0-08</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -876,18 +812,24 @@
         <pin num="8" name="8" type="passive"/>
         <pin num="9" name="9" type="passive"/>
         <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="J.AMPMODU-ModII" part="Socket.Hor.2x5.6-5535512-4">
-      <description>CONN RCPT 10POS 0.1 GOLD PCB R/A</description>
+    <libpart lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8">
+      <description>CONN RCPT 16POS 0.1 GOLD PCB R/A</description>
       <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Socket.Hor.2x5.6-5535512-4</field>
+        <field name="Value">Socket.Hor.2x8.1-5535512-8</field>
         <field name="Footprint">BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</field>
         <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
         <field name="Usage">Usage</field>
-        <field name="ID">6-5535512-4</field>
+        <field name="ID">1-5535512-8</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -900,6 +842,12 @@
         <pin num="8" name="8" type="passive"/>
         <pin num="9" name="9" type="passive"/>
         <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="J.PinHeader" part="Bergstik-II_6">
@@ -924,36 +872,6 @@
         <pin num="4" name="A4" type="passive"/>
         <pin num="5" name="A5" type="passive"/>
         <pin num="6" name="A6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="J.QuickConnect" part="Keystone.3571">
-      <description>CONN QC RCPT 0.187 SOLDER</description>
-      <docs>https://www.keyelco.com/userAssets/file/M65p61.pdf</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Keystone.3571</field>
-        <field name="Footprint">BTech.Connector.QuickConnect:Keystone.3571</field>
-        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p61.pdf</field>
-        <field name="Usage">Usage</field>
-        <field name="ID">3571</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="J.QuickConnect" part="Keystone.4918">
-      <description>CONN QC TAB 0.187 SOLDER </description>
-      <docs>https://www.keyelco.com/userAssets/file/M65p58.pdf</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Keystone.4918</field>
-        <field name="Footprint">BTech.Connector.QuickConnect:Keystone.4918</field>
-        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p58.pdf</field>
-        <field name="Usage">Usage</field>
-        <field name="ID">4918</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="R.Yageo.RC0805" part="10k">
@@ -1107,10 +1025,10 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Symbol" part="KiCAD-Logo2.5mm.SilkScreen">
+    <libpart lib="Symbol" part="KiCAD-DesignedWith-Logo2.5mm.SilkScreen">
       <fields>
         <field name="Reference">MP</field>
-        <field name="Value">KiCAD-Logo2.5mm.SilkScreen</field>
+        <field name="Value">KiCAD-DesignedWith-Logo2.5mm.SilkScreen</field>
         <field name="Footprint">Symbol:KiCad-Logo2_5mm_SilkScreen</field>
       </fields>
     </libpart>
@@ -1250,9 +1168,6 @@
     <library logical="J.PinHeader">
       <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.PinHeader.kicad_sym</uri>
     </library>
-    <library logical="J.QuickConnect">
-      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.QuickConnect.kicad_sym</uri>
-    </library>
     <library logical="R.Yageo.RC0805">
       <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/R.Yageo.RC0805.kicad_sym</uri>
     </library>
@@ -1275,8 +1190,8 @@
   <nets>
     <net code="1" name="+3V3">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="S2" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
@@ -1285,8 +1200,8 @@
     </net>
     <net code="2" name="+5V">
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="S2" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="S2" pin="5" pinfunction="B" pintype="passive"/>
@@ -1295,15 +1210,15 @@
       <node ref="U3" pin="1" pinfunction="5V-IN" pintype="power_in"/>
     </net>
     <net code="3" name="+15V">
-      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="J8" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J12" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
     </net>
     <net code="4" name="+VDC">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J12" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
-      <node ref="J8" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
       <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
       <node ref="U1" pin="2" pinfunction="IN" pintype="power_in"/>
@@ -1311,60 +1226,68 @@
       <node ref="U2" pin="2" pinfunction="IN" pintype="power_in"/>
     </net>
     <net code="5" name="-15V">
-      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
     </net>
     <net code="6" name="/CAN-H">
-      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="S1" pin="2" pinfunction="B" pintype="passive"/>
     </net>
     <net code="7" name="/CAN-L">
-      <node ref="J10" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="S1" pin="5" pinfunction="B" pintype="passive"/>
     </net>
     <net code="8" name="/I2C-SCL">
-      <node ref="J7" pin="10" pinfunction="10" pintype="passive"/>
-      <node ref="J8" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J12" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
     </net>
     <net code="9" name="/I2C-SDA">
-      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J12" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
     </net>
     <net code="10" name="/One-Wire">
-      <node ref="J10" pin="10" pinfunction="10" pintype="passive"/>
-      <node ref="J9" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J13" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
     </net>
-    <net code="11" name="/SPI-ADR0">
-      <node ref="J10" pin="7" pinfunction="7" pintype="passive"/>
-      <node ref="J9" pin="7" pinfunction="7" pintype="passive"/>
+    <net code="11" name="/Reserved0">
+      <node ref="J13" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
     </net>
-    <net code="12" name="/SPI-ADR1">
-      <node ref="J10" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="J9" pin="8" pinfunction="8" pintype="passive"/>
+    <net code="12" name="/Reserved1">
+      <node ref="J13" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
     </net>
-    <net code="13" name="/SPI-ADR2">
-      <node ref="J10" pin="9" pinfunction="9" pintype="passive"/>
-      <node ref="J9" pin="9" pinfunction="9" pintype="passive"/>
+    <net code="13" name="/SPI-ADR0">
+      <node ref="J13" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
     </net>
-    <net code="14" name="/SPI-CLK">
-      <node ref="J10" pin="5" pinfunction="5" pintype="passive"/>
-      <node ref="J9" pin="5" pinfunction="5" pintype="passive"/>
+    <net code="14" name="/SPI-ADR1">
+      <node ref="J13" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
     </net>
-    <net code="15" name="/SPI-MRST">
-      <node ref="J10" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J9" pin="4" pinfunction="4" pintype="passive"/>
+    <net code="15" name="/SPI-ADR2">
+      <node ref="J13" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
     </net>
-    <net code="16" name="/SPI-MTSR">
-      <node ref="J10" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J9" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="16" name="/SPI-CLK">
+      <node ref="J13" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
     </net>
-    <net code="17" name="/SPI-~CE">
-      <node ref="J10" pin="6" pinfunction="6" pintype="passive"/>
-      <node ref="J9" pin="6" pinfunction="6" pintype="passive"/>
+    <net code="17" name="/SPI-MRST">
+      <node ref="J13" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
     </net>
-    <net code="18" name="GND">
+    <net code="18" name="/SPI-MTSR">
+      <node ref="J13" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="19" name="/SPI-~CE">
+      <node ref="J13" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="20" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
@@ -1381,10 +1304,26 @@
       <node ref="J11" pin="4" pinfunction="A4" pintype="passive"/>
       <node ref="J11" pin="5" pinfunction="A5" pintype="passive"/>
       <node ref="J11" pin="6" pinfunction="A6" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J12" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J12" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J12" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J12" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J12" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J13" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
       <node ref="S3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
@@ -1394,66 +1333,66 @@
       <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
       <node ref="U3" pin="6" pinfunction="3.3V-TOL" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(C5-Pad1)">
+    <net code="21" name="Net-(C5-Pad1)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D1-Pad2)">
+    <net code="22" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="Rd-A" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D1-Pad4)">
+    <net code="23" name="Net-(D1-Pad4)">
       <node ref="D1" pin="4" pinfunction="Gn-A" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D2-Pad2)">
+    <net code="24" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="Rd-A" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(D2-Pad4)">
+    <net code="25" name="Net-(D2-Pad4)">
       <node ref="D2" pin="4" pinfunction="Gn-A" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(R3-Pad2)">
+    <net code="26" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="S1" pin="3" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(R4-Pad2)">
+    <net code="27" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="S1" pin="6" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="26" name="Net-(R5-Pad1)">
+    <net code="28" name="Net-(R5-Pad1)">
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="S2" pin="4" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="27" name="Net-(R6-Pad1)">
+    <net code="29" name="Net-(R6-Pad1)">
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="S2" pin="6" pinfunction="C" pintype="passive"/>
     </net>
-    <net code="28" name="VCC">
-      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="30" name="VCC">
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="S2" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="29" name="unconnected-(S1-Pad1)">
+    <net code="31" name="unconnected-(S1-Pad1)">
       <node ref="S1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="30" name="unconnected-(S1-Pad4)">
+    <net code="32" name="unconnected-(S1-Pad4)">
       <node ref="S1" pin="4" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="31" name="~PWR-FAIL">
+    <net code="33" name="~PWR-FAIL">
       <node ref="S3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="FLG" pintype="open_collector"/>
       <node ref="U2" pin="5" pinfunction="FLG" pintype="open_collector"/>
       <node ref="U3" pin="5" pinfunction="~PBRST" pintype="passive"/>
     </net>
-    <net code="32" name="~RESET">
-      <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
-      <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
+    <net code="34" name="~RESET">
+      <node ref="J12" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="5V-~RST" pintype="open_collector"/>
       <node ref="U3" pin="7" pinfunction="3.3V-~RST" pintype="open_collector"/>
