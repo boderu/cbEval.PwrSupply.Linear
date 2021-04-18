@@ -1,0 +1,1401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\BodeRu\WorkspaceKiCAD\cbEval.PwrSupply.Linear\cbEval.PwrSupply.Linear.kicad_sch</source>
+    <date>11.04.2021 12:10:49</date>
+    <tool>Eeschema (5.99.0-10141-g7d9ee76f64)</tool>
+    <textvar name="TITLE">cbEval PSupply 5P/3P3</textvar>
+    <textvar name="VERSION">V1.0.0</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>cbEval PSupply 5P/3P3</title>
+        <company/>
+        <rev>1.0.0</rev>
+        <date/>
+        <source>cbEval.PwrSupply.Linear.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100µ</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">AlElec</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
+        <field name="Package">6.3x7.7</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="C.Nichicon.UWT.35V" part="100µ" description="Aluminum Electrolytic Capacitor UWT"/>
+      <property name="Package" value="6.3x7.7"/>
+      <property name="Voltage" value="35V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="AlElec"/>
+      <property name="ID" value="UWT1V101MCL1G5S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>190f4a86-0f56-4657-8348-289ced97defe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10µ</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E</footprint>
+      <datasheet>https://datasheets.avx.com/TAJ.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">Tantal</field>
+        <field name="ID">TAJE106K035#NJ</field>
+        <field name="Package">E</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="C.AVX.TAJ.35V" part="10µ" description="Standard Tantalum Capacitors TAJ"/>
+      <property name="Package" value="E"/>
+      <property name="Voltage" value="35V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="Tantal"/>
+      <property name="ID" value="TAJE106K035#NJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fde9c94c-658a-46fd-9440-e55b31b321bf</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10µ</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E</footprint>
+      <datasheet>https://datasheets.avx.com/TAJ.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">Tantal</field>
+        <field name="ID">TAJE106K035#NJ</field>
+        <field name="Package">E</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="C.AVX.TAJ.35V" part="10µ" description="Standard Tantalum Capacitors TAJ"/>
+      <property name="Package" value="E"/>
+      <property name="Voltage" value="35V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="Tantal"/>
+      <property name="ID" value="TAJE106K035#NJ"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c636daf-85c5-4b03-9ccd-eeea86dfc5dd</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100µ</value>
+      <footprint>Capacitor_SMD:CP_Elec_6.3x7.7</footprint>
+      <datasheet>https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">AlElec</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
+        <field name="Package">6.3x7.7</field>
+        <field name="Tolerance">20%</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="C.Nichicon.UWT.35V" part="100µ" description="Aluminum Electrolytic Capacitor UWT"/>
+      <property name="Package" value="6.3x7.7"/>
+      <property name="Voltage" value="35V"/>
+      <property name="Tolerance" value="20%"/>
+      <property name="Dielectric" value="AlElec"/>
+      <property name="ID" value="UWT1V101MCL1G5S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25a51e68-26fb-4484-882b-befb090040dc</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4n7</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>C.Kemet.MLCC.0805.X7R.pdf</datasheet>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C472K5RACTU</field>
+        <field name="Package">0805</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="C.Kemet.MLCC.0805.X7R" part="4n7" description="Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)"/>
+      <property name="Package" value="0805"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="ID" value="C0805C472K5RACTU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb69352a-0f3a-480d-be55-1ced798e0a73</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>E682KRKGWT</value>
+      <footprint>LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2011-0354/LTST-E682KRKGWT.pdf</datasheet>
+      <fields>
+        <field name="ID">LTST-E682KRKGWT</field>
+        <field name="Package">PLCC4</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="D.LED" part="E682KRKGWT" description="LED GREEN/RED DIFFUSED"/>
+      <property name="Package" value="PLCC4"/>
+      <property name="ID" value="LTST-E682KRKGWT"/>
+      <property name="Usage" value="Usage"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5639937b-154b-4aa0-9c75-3454fe00e53344f31491-a7be-4911-8fbc-da62e2d0cc72</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>E682KRKGWT</value>
+      <footprint>LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2011-0354/LTST-E682KRKGWT.pdf</datasheet>
+      <fields>
+        <field name="ID">LTST-E682KRKGWT</field>
+        <field name="Package">PLCC4</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <libsource lib="D.LED" part="E682KRKGWT" description="LED GREEN/RED DIFFUSED"/>
+      <property name="Package" value="PLCC4"/>
+      <property name="ID" value="LTST-E682KRKGWT"/>
+      <property name="Usage" value="Usage"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b77ba888-b474-409b-bf99-04798a15b4d599ed72cf-641d-4037-aa71-f5709da7a36f</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>CIME.E.BE3500S.1x</value>
+      <footprint>BTech.Housing:Camdenboss.CIME.E.BE3500S.1x</footprint>
+      <datasheet>https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</datasheet>
+      <fields>
+        <field name="ID">CIME/E/BE3500S</field>
+      </fields>
+      <libsource lib="H.Housing" part="CIME.E.BE3500S.1x" description="Euro Series 107mm Empty Modular Interface Support"/>
+      <property name="ID" value="CIME/E/BE3500S"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>603c5b6a-dc49-45d8-bdd4-0b72c3f72b94</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CAL.CT3151V1-0</value>
+      <footprint>BTech.Connector.4mm:CAL.CT3151V1</footprint>
+      <datasheet>https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</datasheet>
+      <fields>
+        <field name="Color">Black</field>
+        <field name="ID">CT3151V1-0</field>
+        <field name="Usage">Pwr Supply GND</field>
+      </fields>
+      <libsource lib="J.4mm" part="CAL.CT3151V1-0" description="SAFETY JACK 4MM HOR PCB"/>
+      <property name="Color" value="Black"/>
+      <property name="ID" value="CT3151V1-0"/>
+      <property name="Usage" value="Pwr Supply GND"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dc5a36a-38a8-4867-9954-8ce7b3f1c99f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>CAL.CT3151V1-2</value>
+      <footprint>BTech.Connector.4mm:CAL.CT3151V1</footprint>
+      <datasheet>https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</datasheet>
+      <fields>
+        <field name="Color">Red</field>
+        <field name="ID">CT3151V1-2</field>
+        <field name="Usage">Pwr Supply V+</field>
+      </fields>
+      <libsource lib="J.4mm" part="CAL.CT3151V1-2" description="SAFETY JACK 4MM HOR PCB"/>
+      <property name="Color" value="Red"/>
+      <property name="ID" value="CT3151V1-2"/>
+      <property name="Usage" value="Pwr Supply V+"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46bc3a26-4db8-40e9-b9f8-f6397cd4bb44</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Socket.Hor.2x8.1-5535512-8</value>
+      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">1-5535512-8</field>
+        <field name="Usage">Pwr Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
+      <property name="Usage" value="Pwr Bus"/>
+      <property name="ID" value="1-5535512-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a5dce13-621d-4569-a066-0f61f2638c63</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Socket.Hor.2x8.1-5535512-8</value>
+      <footprint>BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">1-5535512-8</field>
+        <field name="Usage">Data Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8" description="CONN RCPT 16POS 0.1 GOLD PCB R/A"/>
+      <property name="Usage" value="Data Bus"/>
+      <property name="ID" value="1-5535512-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>024d2d9f-df27-4a33-84ff-de69d08a8e9b</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Bergstik-II_6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</datasheet>
+      <fields>
+        <field name="ID">68000-106HLF</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">GND</field>
+      </fields>
+      <libsource lib="J.PinHeader" part="Bergstik-II_6" description="Jumper, 6-pole, open"/>
+      <property name="Package" value="1x6-2.54"/>
+      <property name="Usage" value="GND"/>
+      <property name="ID" value="68000-106HLF"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fae6516a-9429-461a-8ec1-3b1a99f8be92</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Pwr Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Pwr Bus"/>
+      <property name="ID" value="9-103326-0-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe28bb3-2b63-4632-ae77-dbef4484ce9f</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Header.Hor.2x8.9-103326-0-08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="ID">9-103326-0-08</field>
+        <field name="Usage">Data Bus</field>
+      </fields>
+      <libsource lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08" description="CONN HEADER R/A 16POS 2.54MM "/>
+      <property name="Usage" value="Data Bus"/>
+      <property name="ID" value="9-103326-0-08"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27fe4606-788d-4210-80a8-db57dc59cf98</tstamps>
+    </comp>
+    <comp ref="MP1">
+      <value>KiCAD-DesignedWith-Logo2.5mm.SilkScreen</value>
+      <footprint>Symbol:KiCad-Logo2_5mm_SilkScreen</footprint>
+      <libsource lib="Symbol" part="KiCAD-DesignedWith-Logo2.5mm.SilkScreen" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9e57e62-be33-4183-8d54-8f35a9c1b2d9</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>649R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-07649RL</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="649R" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-07649RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92587325-892b-4776-9d98-5bf9e0f65dcf</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>240R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-07240RL</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="240R" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-07240RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c645004d-1afb-4fc6-a4d3-4ff215fea9ca</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>60R4</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-0760R4L</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="60R4" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-0760R4L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03d5fd5c-7c17-407c-a42e-f303c1dad0e5</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>60R4</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-0760R4L</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="60R4" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-0760R4L"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb58e51a-f2c7-4aee-82c3-f711ff8a2457</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>649R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-07649RL</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="649R" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-07649RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5dd5a9e7-b255-49a9-8213-d4191fc399b1</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>649R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-07649RL</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="649R" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-07649RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8db61d4-605d-432b-929b-5d27a055bc00</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>R.Yaego.RC0805.pdf</datasheet>
+      <fields>
+        <field name="ID">RC0805FR-0710KL</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="TK">TK100</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="R.Yageo.RC0805" part="10k" description="SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt"/>
+      <property name="Package" value="0805"/>
+      <property name="Power" value="0W125"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="TK" value="TK100"/>
+      <property name="ID" value="RC0805FR-0710KL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27513f2c-7924-4132-a700-f6ff7e1f7ca2</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>C&amp;K-JS202011</value>
+      <footprint>Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</footprint>
+      <datasheet>https://www.ckswitches.com/media/1422/js.pdf</datasheet>
+      <fields>
+        <field name="ID">JS202011CQN</field>
+        <field name="Usage">CAN-Term</field>
+      </fields>
+      <libsource lib="S" part="C&amp;K-JS202011" description="Sub-Miniature Slide Switches"/>
+      <property name="Usage" value="CAN-Term"/>
+      <property name="ID" value="JS202011CQN"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce09aa3d-4087-45ca-9d22-0301572fe9c3bac21b1a-b9fb-4669-9df0-21ebe48698b7</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>E-Switch.100A.WDP1.T2.B4.M2</value>
+      <footprint>BTech.Button-Switch:E-Switch.100A.M2.DPDT</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/130/100A-1.pdf</datasheet>
+      <fields>
+        <field name="ID">100AWDP1T2B4M2QE </field>
+        <field name="Usage">VCC Select</field>
+      </fields>
+      <libsource lib="S" part="E-Switch.100A.WDP1.T2.B4.M2" description=" SWITCH TOGGLE DPDT 5A 120V"/>
+      <property name="Usage" value="VCC Select"/>
+      <property name="ID" value="100AWDP1T2B4M2QE "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2ed335a-250c-4a43-8966-a9ccca367a6480e2341d-38a7-4fe9-8273-9289c8d33d02</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>TL3305A</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3305A</footprint>
+      <datasheet>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf</datasheet>
+      <fields>
+        <field name="ID">TL3305AF160QG</field>
+        <field name="Package">4.5x4.5</field>
+        <field name="Usage">RESET</field>
+      </fields>
+      <libsource lib="S" part="TL3305A" description="TL3305 Series Tact Switch"/>
+      <property name="Package" value="4.5x4.5"/>
+      <property name="Usage" value="RESET"/>
+      <property name="ID" value="TL3305AF160QG"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa57a9e2-bcf1-4d8e-be3f-e588e584ee2d</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TAB1287</value>
+      <footprint>TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p59.pdf</datasheet>
+      <fields>
+        <field name="ID">1287</field>
+        <field name="Usage">Meas GND</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="TAB1287" description="Test Point - Faston"/>
+      <property name="Usage" value="Meas GND"/>
+      <property name="ID" value="1287"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b30ab6b3-5b9f-4f4c-9b0b-4f9cfe6bff29</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>SMT5019</value>
+      <footprint>TestPoint:TestPoint_Keystone_5019_Minature</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p55.pdf</datasheet>
+      <fields>
+        <field name="ID">5019</field>
+        <field name="Usage">Meas VP</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="SMT5019" description="Test Point - SMT"/>
+      <property name="Usage" value="Meas VP"/>
+      <property name="ID" value="5019"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebed129d-a49a-4f66-a013-0b9a68fed987</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>SMT5019</value>
+      <footprint>TestPoint:TestPoint_Keystone_5019_Minature</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p55.pdf</datasheet>
+      <fields>
+        <field name="ID">5019</field>
+        <field name="Usage">Meas 5P</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="SMT5019" description="Test Point - SMT"/>
+      <property name="Usage" value="Meas 5P"/>
+      <property name="ID" value="5019"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1d4dc18-0781-4949-8a00-60fac12c38d6</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>SMT5019</value>
+      <footprint>TestPoint:TestPoint_Keystone_5019_Minature</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p55.pdf</datasheet>
+      <fields>
+        <field name="ID">5019</field>
+        <field name="Usage">Meas 3P3</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="SMT5019" description="Test Point - SMT"/>
+      <property name="Usage" value="Meas 3P3"/>
+      <property name="ID" value="5019"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c68a03a3-7772-45ac-8dc9-130f6b7ed027</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TAB1287</value>
+      <footprint>TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</footprint>
+      <datasheet>https://www.keyelco.com/userAssets/file/M65p59.pdf</datasheet>
+      <fields>
+        <field name="ID">1287</field>
+        <field name="Usage">Meas GND</field>
+      </fields>
+      <libsource lib="TP.Keystone" part="TAB1287" description="Test Point - Faston"/>
+      <property name="Usage" value="Meas GND"/>
+      <property name="ID" value="1287"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>06b4033c-6812-4772-a515-49415b684d45</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MIC29151-5.0WU</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</datasheet>
+      <fields>
+        <field name="Current">1A5</field>
+        <field name="ID">MIC29151-5.0WU</field>
+        <field name="Package">TO-263-5</field>
+        <field name="VoltageIn">30V</field>
+        <field name="VoltageOut">5V</field>
+      </fields>
+      <libsource lib="U.VoltageRegulator" part="MIC29151-5.0WU" description="High-Current Low Dropout Regulator"/>
+      <property name="Package" value="TO-263-5"/>
+      <property name="VoltageIn" value="30V"/>
+      <property name="VoltageOut" value="5V"/>
+      <property name="Current" value="1A5"/>
+      <property name="ID" value="MIC29151-5.0WU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da446712-604d-4193-8ca7-c1d2c8aea3b2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MIC29151-3.3WU</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</datasheet>
+      <fields>
+        <field name="Current">1A5</field>
+        <field name="ID">MIC29151-3.3WU</field>
+        <field name="Package">TO-263-5</field>
+        <field name="VoltageIn">30V</field>
+        <field name="VoltageOut">3V3</field>
+      </fields>
+      <libsource lib="U.VoltageRegulator" part="MIC29151-3.3WU" description="High-Current Low Dropout Regulator"/>
+      <property name="Package" value="TO-263-5"/>
+      <property name="VoltageIn" value="30V"/>
+      <property name="VoltageOut" value="3V3"/>
+      <property name="Current" value="1A5"/>
+      <property name="ID" value="MIC29151-3.3WU"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85bc17f4-fab7-4f6f-8a2c-3c0f6bdbc650</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>DS1834AS+</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://pdfserv.maximintegrated.com/en/ds/DS1834-DS1834D.pdf</datasheet>
+      <fields>
+        <field name="ID"> DS1834AS+</field>
+        <field name="Package">SOIC-8</field>
+      </fields>
+      <libsource lib="U.Supervisor" part="DS1834AS+" description="Dual EconoReset with Pushbutton"/>
+      <property name="Package" value="SOIC-8"/>
+      <property name="ID" value=" DS1834AS+"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cbEval.PwrSupply.Linear.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5054ab33-7e4b-41fb-a5ae-0a2ecddf730c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="C.AVX.TAJ.35V" part="10µ">
+      <description>Standard Tantalum Capacitors TAJ</description>
+      <docs>https://datasheets.avx.com/TAJ.pdf</docs>
+      <footprints>
+        <fp>*CP*Tantal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10µ</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-7360-38_Kemet-E</field>
+        <field name="Datasheet">https://datasheets.avx.com/TAJ.pdf</field>
+        <field name="Package">E</field>
+        <field name="Voltage">35V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">Tantal</field>
+        <field name="ID">TAJE106K035#NJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C.Kemet.MLCC.0805.X7R" part="4n7">
+      <description>Surface Mount Multilayer Ceramic Chip Capacitors (SMD MLCCs)</description>
+      <docs>C.Kemet.MLCC.0805.X7R.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">4n7</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">C.Kemet.MLCC.0805.X7R.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Voltage">50V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Dielectric">X7R</field>
+        <field name="ID">C0805C472K5RACTU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="C.Nichicon.UWT.35V" part="100µ">
+      <description>Aluminum Electrolytic Capacitor UWT</description>
+      <docs>https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</docs>
+      <footprints>
+        <fp>*CP*Elec*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100µ</field>
+        <field name="Footprint">Capacitor_SMD:CP_Elec_6.3x7.7</field>
+        <field name="Datasheet">https://products.nichicon.co.jp/en/pdf/XJA043/e-uwt.pdf</field>
+        <field name="Package">6.3x7.7</field>
+        <field name="Voltage">35V</field>
+        <field name="Tolerance">20%</field>
+        <field name="Dielectric">AlElec</field>
+        <field name="ID">UWT1V101MCL1G5S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="D.LED" part="E682KRKGWT">
+      <description>LED GREEN/RED DIFFUSED</description>
+      <docs>https://optoelectronics.liteon.com/upload/download/DS22-2011-0354/LTST-E682KRKGWT.pdf</docs>
+      <footprints>
+        <fp>LED*3.0mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">E682KRKGWT</field>
+        <field name="Footprint">LED_SMD:LED_Avago_PLCC4_3.2x2.8mm_CW</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS22-2011-0354/LTST-E682KRKGWT.pdf</field>
+        <field name="Package">PLCC4</field>
+        <field name="ID">LTST-E682KRKGWT</field>
+        <field name="Usage">Usage</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Rd-C" type="passive"/>
+        <pin num="2" name="Rd-A" type="passive"/>
+        <pin num="3" name="Gn-C" type="passive"/>
+        <pin num="4" name="Gn-A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="H.Housing" part="CIME.E.BE3500S.1x">
+      <description>Euro Series 107mm Empty Modular Interface Support</description>
+      <docs>https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</docs>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">CIME.E.BE3500S.1x</field>
+        <field name="Footprint">BTech.Housing:Camdenboss.CIME.E.BE3500S.1x</field>
+        <field name="Datasheet">https://cdn-reichelt.de/documents/datenblatt/C700/CIME_E.pdf</field>
+        <field name="ID">CIME/E/BE3500S</field>
+      </fields>
+    </libpart>
+    <libpart lib="J.4mm" part="CAL.CT3151V1-0">
+      <description>SAFETY JACK 4MM HOR PCB</description>
+      <docs>https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CAL.CT3151V1-0</field>
+        <field name="Footprint">BTech.Connector.4mm:CAL.CT3151V1</field>
+        <field name="Datasheet">https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="Color">Black</field>
+        <field name="ID">CT3151V1-0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.4mm" part="CAL.CT3151V1-2">
+      <description>SAFETY JACK 4MM HOR PCB</description>
+      <docs>https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CAL.CT3151V1-2</field>
+        <field name="Footprint">BTech.Connector.4mm:CAL.CT3151V1</field>
+        <field name="Datasheet">https://ctemedia.s3-us-west-1.amazonaws.com/public/attachments/P315100rH_drawing.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="Color">Red</field>
+        <field name="ID">CT3151V1-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.AMPMODU-ModII" part="Header.Hor.2x8.9-103326-0-08">
+      <description>CONN HEADER R/A 16POS 2.54MM </description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Header.Hor.2x8.9-103326-0-08</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Horizontal</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=103326&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">9-103326-0-08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.AMPMODU-ModII" part="Socket.Hor.2x8.1-5535512-8">
+      <description>CONN RCPT 16POS 0.1 GOLD PCB R/A</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Socket.Hor.2x8.1-5535512-8</field>
+        <field name="Footprint">BTech.Connector.AMPMODU-ModII:Socket.Hor.2x5.6-5535512-4</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=5535512&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">1-5535512-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="J.PinHeader" part="Bergstik-II_6">
+      <description>Jumper, 6-pole, open</description>
+      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</docs>
+      <footprints>
+        <fp>Jumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Bergstik-II_6</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/68000.pdf?__cf_chl_jschl_tk__=264da0a199af1bdefb04026963ad3c85a073036f-1615910483-0-AaX8LtgG8apEDzGIqgzQ0aoAKWkj50oj4JyeD-4a-BjpVTotUkz0b9CwK48SctxW9RfQ29uHK-g8U4Q7W950UfkLI47M2h-zbxXP0QVGLOROToQCZGWcFC-c_QilEUacZTRKDvvL4FAsQqyycsf3m4Eg-isf3_QP12ONd_wWQcMNK-LuQ3eyU0ZB_uGz-1tHBPJYyv3B6ZQ-xQw3v8oWI_eE_zzEWbIWrLFoFf6eZXoAoT5Y4wJiyDXoV-vBmq5F4mSG8H7EqnWkU4EpxDA2-swokem-Q60MTknd4E9RK0nSmJU_PhEDac0Sb3Im75HD1QHXcTu1yMJzQCNpgpofH-wmgz79VfPk4ttpW38ZPDdPIxv_B7gR4gWWdhvgQyW6byYqLE8E5a8tpA31lZkCN19ufDO8SqP6UAFJscCeeydKEgOe2Ksu_LJQubib6v3-6A</field>
+        <field name="Package">1x6-2.54</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">68000-106HLF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="A3" type="passive"/>
+        <pin num="4" name="A4" type="passive"/>
+        <pin num="5" name="A5" type="passive"/>
+        <pin num="6" name="A6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R.Yageo.RC0805" part="10k">
+      <description>SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt</description>
+      <docs>R.Yaego.RC0805.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">10k</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">R.Yaego.RC0805.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="Tolerance">1%</field>
+        <field name="TK">TK100</field>
+        <field name="ID">RC0805FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R.Yageo.RC0805" part="240R">
+      <description>SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt</description>
+      <docs>R.Yaego.RC0805.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">240R</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">R.Yaego.RC0805.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="Tolerance">1%</field>
+        <field name="TK">TK100</field>
+        <field name="ID">RC0805FR-07240RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R.Yageo.RC0805" part="60R4">
+      <description>SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt</description>
+      <docs>R.Yaego.RC0805.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">60R4</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">R.Yaego.RC0805.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="Tolerance">1%</field>
+        <field name="TK">TK100</field>
+        <field name="ID">RC0805FR-0760R4L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="R.Yageo.RC0805" part="649R">
+      <description>SMD-Metallglasurschicht-Chipwiderstand, Dickschicht, nicht gewendelt</description>
+      <docs>R.Yaego.RC0805.pdf</docs>
+      <footprints>
+        <fp>*0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">649R</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">R.Yaego.RC0805.pdf</field>
+        <field name="Package">0805</field>
+        <field name="Power">0W125</field>
+        <field name="Tolerance">1%</field>
+        <field name="TK">TK100</field>
+        <field name="ID">RC0805FR-07649RL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S" part="C&amp;K-JS202011">
+      <description>Sub-Miniature Slide Switches</description>
+      <docs>https://www.ckswitches.com/media/1422/js.pdf</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">C&amp;K-JS202011</field>
+        <field name="Footprint">Button_Switch_THT:SW_CuK_JS202011CQN_DPDT_Straight</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1422/js.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">JS202011CQN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S" part="E-Switch.100A.WDP1.T2.B4.M2">
+      <description> SWITCH TOGGLE DPDT 5A 120V</description>
+      <docs>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/130/100A-1.pdf</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">E-Switch.100A.WDP1.T2.B4.M2</field>
+        <field name="Footprint">BTech.Button-Switch:E-Switch.100A.M2.DPDT</field>
+        <field name="Datasheet">https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/130/100A-1.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">100AWDP1T2B4M2QE </field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="S" part="TL3305A">
+      <description>TL3305 Series Tact Switch</description>
+      <docs>https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">TL3305A</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3305A</field>
+        <field name="Datasheet">https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/213/TL3305.pdf</field>
+        <field name="Package">4.5x4.5</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">TL3305AF160QG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Symbol" part="KiCAD-DesignedWith-Logo2.5mm.SilkScreen">
+      <fields>
+        <field name="Reference">MP</field>
+        <field name="Value">KiCAD-DesignedWith-Logo2.5mm.SilkScreen</field>
+        <field name="Footprint">Symbol:KiCad-Logo2_5mm_SilkScreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="TP.Keystone" part="SMT5019">
+      <description>Test Point - SMT</description>
+      <docs>https://www.keyelco.com/userAssets/file/M65p55.pdf</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">SMT5019</field>
+        <field name="Footprint">TestPoint:TestPoint_Keystone_5019_Minature</field>
+        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p55.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">5019</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TP.Keystone" part="TAB1287">
+      <description>Test Point - Faston</description>
+      <docs>https://www.keyelco.com/userAssets/file/M65p59.pdf</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TAB1287</field>
+        <field name="Footprint">TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm</field>
+        <field name="Datasheet">https://www.keyelco.com/userAssets/file/M65p59.pdf</field>
+        <field name="Usage">Usage</field>
+        <field name="ID">1287</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.Supervisor" part="DS1834AS+">
+      <description>Dual EconoReset with Pushbutton</description>
+      <docs>https://pdfserv.maximintegrated.com/en/ds/DS1834-DS1834D.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS1834AS+</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://pdfserv.maximintegrated.com/en/ds/DS1834-DS1834D.pdf</field>
+        <field name="Package">SOIC-8</field>
+        <field name="ID"> DS1834AS+</field>
+      </fields>
+      <pins>
+        <pin num="1" name="5V-IN" type="power_in"/>
+        <pin num="2" name="5V-~RST" type="open_collector"/>
+        <pin num="3" name="5V-TOL" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~PBRST" type="passive"/>
+        <pin num="6" name="3.3V-TOL" type="passive"/>
+        <pin num="7" name="3.3V-~RST" type="open_collector"/>
+        <pin num="8" name="3.3V-IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.VoltageRegulator" part="MIC29151-3.3WU">
+      <description>High-Current Low Dropout Regulator</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</docs>
+      <footprints>
+        <fp>*TO-263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC29151-3.3WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</field>
+        <field name="Package">TO-263-5</field>
+        <field name="VoltageIn">30V</field>
+        <field name="VoltageOut">3V3</field>
+        <field name="Current">1A5</field>
+        <field name="ID">MIC29151-3.3WU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="power_out"/>
+        <pin num="5" name="FLG" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="U.VoltageRegulator" part="MIC29151-5.0WU">
+      <description>High-Current Low Dropout Regulator</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</docs>
+      <footprints>
+        <fp>*TO-263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC29151-5.0WU</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/MIC2915x-30x-50x-75x-High-Current-Low-Dropout-Regulators-DS20005685B.pdf</field>
+        <field name="Package">TO-263-5</field>
+        <field name="VoltageIn">30V</field>
+        <field name="VoltageOut">5V</field>
+        <field name="Current">1A5</field>
+        <field name="ID">MIC29151-5.0WU</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="power_out"/>
+        <pin num="5" name="FLG" type="open_collector"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="C.AVX.TAJ.35V">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/C.AVX.TAJ.35V.kicad_sym</uri>
+    </library>
+    <library logical="C.Kemet.MLCC.0805.X7R">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/C.Kemet.MLCC.0805.X7R.kicad_sym</uri>
+    </library>
+    <library logical="C.Nichicon.UWT.35V">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/C.Nichicon.UWT.35V.kicad_sym</uri>
+    </library>
+    <library logical="D.LED">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/D.LED.kicad_sym</uri>
+    </library>
+    <library logical="H.Housing">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/H.Housing.kicad_sym</uri>
+    </library>
+    <library logical="J.4mm">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.4mm.kicad_sym</uri>
+    </library>
+    <library logical="J.AMPMODU-ModII">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.AMPMODU-ModII.kicad_sym</uri>
+    </library>
+    <library logical="J.PinHeader">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/J.PinHeader.kicad_sym</uri>
+    </library>
+    <library logical="R.Yageo.RC0805">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/R.Yageo.RC0805.kicad_sym</uri>
+    </library>
+    <library logical="S">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/S.kicad_sym</uri>
+    </library>
+    <library logical="Symbol">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/Symbol.kicad_sym</uri>
+    </library>
+    <library logical="TP.Keystone">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/TP.Keystone.kicad_sym</uri>
+    </library>
+    <library logical="U.Supervisor">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/U.Supervisor.kicad_sym</uri>
+    </library>
+    <library logical="U.VoltageRegulator">
+      <uri>C:/Users/BodeRu/Frameworks/KiCAD/Symbols/U.VoltageRegulator.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="S2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="8" pinfunction="3.3V-IN" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="S2" pin="5" pinfunction="B" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="5V-IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="+15V">
+      <node ref="J12" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="4" name="+VDC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J12" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="IN" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="5" name="-15V">
+      <node ref="J12" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="6" name="/CAN-H">
+      <node ref="J13" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="7" name="/CAN-L">
+      <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="S1" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="8" name="/I2C-SCL">
+      <node ref="J12" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="9" name="/I2C-SDA">
+      <node ref="J12" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="10" name="/One-Wire">
+      <node ref="J13" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="16" pintype="passive"/>
+    </net>
+    <net code="11" name="/Reserved0">
+      <node ref="J13" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="12" name="/Reserved1">
+      <node ref="J13" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="13" name="/SPI-ADR0">
+      <node ref="J13" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13" pintype="passive"/>
+    </net>
+    <net code="14" name="/SPI-ADR1">
+      <node ref="J13" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14" pintype="passive"/>
+    </net>
+    <net code="15" name="/SPI-ADR2">
+      <node ref="J13" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15" pintype="passive"/>
+    </net>
+    <net code="16" name="/SPI-CLK">
+      <node ref="J13" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="17" name="/SPI-MRST">
+      <node ref="J13" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+    </net>
+    <net code="18" name="/SPI-MTSR">
+      <node ref="J13" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="19" name="/SPI-~CE">
+      <node ref="J13" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+    </net>
+    <net code="20" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="Rd-C" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="Gn-C" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="Rd-C" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="Gn-C" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="A3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="A4" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="A5" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="A6" pintype="passive"/>
+      <node ref="J12" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J12" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J12" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J12" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J12" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J12" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J13" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="13" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="14" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="16" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="S3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="5V-TOL" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="6" pinfunction="3.3V-TOL" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="Rd-A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4" pinfunction="Gn-A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="Rd-A" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad4)">
+      <node ref="D2" pin="4" pinfunction="Gn-A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="S1" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="S2" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="S2" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="30" name="VCC">
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="S2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(S1-Pad1)">
+      <node ref="S1" pin="1" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(S1-Pad4)">
+      <node ref="S1" pin="4" pinfunction="A" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="~PWR-FAIL">
+      <node ref="S3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FLG" pintype="open_collector"/>
+      <node ref="U2" pin="5" pinfunction="FLG" pintype="open_collector"/>
+      <node ref="U3" pin="5" pinfunction="~PBRST" pintype="passive"/>
+    </net>
+    <net code="34" name="~RESET">
+      <node ref="J12" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="5V-~RST" pintype="open_collector"/>
+      <node ref="U3" pin="7" pinfunction="3.3V-~RST" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>
