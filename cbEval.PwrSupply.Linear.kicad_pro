@@ -113,7 +113,8 @@
         "min_via_annular_width": 0.19999999999999998,
         "min_via_diameter": 0.7,
         "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0
+        "solder_mask_min_width": 0.0,
+        "use_height_for_length_calcs": true
       },
       "track_widths": [
         0.0,
@@ -422,7 +423,8 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0
+      "model_mode": 0,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -433,12 +435,12 @@
   },
   "sheets": [
     [
-      "69dc268d-f302-4e0c-b52e-497a10cb2314",
+      "80bab45f-3cf3-44cd-99be-54f1f6a0353d",
       ""
     ]
   ],
   "text_variables": {
     "TITLE": "cbEval PSupply 5P/3P3",
-    "VERSION": "V1.0.0"
+    "VERSION": "V1.1.0"
   }
 }
